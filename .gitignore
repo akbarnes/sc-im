@@ -1,9 +1,19 @@
 *.o
+*.deb
+*.rpm
+*.snap
+*.tgz
+*.zip
+*.tar
 src/y.tab.h
 src/experres.h
 src/gram.c
 src/sc-im
 src/tags
+src/log
+tests/tags
+tests/log
+tests/*_vallog
 src/scim
 src/statres.h
 doc/grammar_yacc_tools/commands.txt
@@ -11,3 +21,7 @@ doc/grammar_yacc_tools/setitems.txt
 doc/grammar_yacc_tools/term_list.txt
 doc/grammar_yacc_tools/yacc-format-stage1
 src/html
+src/debug.sh
+src/debuga.sh
+src/a.sc
+src/lua
